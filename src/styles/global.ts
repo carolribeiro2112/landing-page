@@ -9,7 +9,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: #F2F3F5;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
   }
   body, button {
     font: 16px Nunito Sans, sans-serif;
