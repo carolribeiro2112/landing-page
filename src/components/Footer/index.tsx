@@ -1,14 +1,20 @@
 import React from 'react';
 import Button from '../Button';
 
+import {Container} from './styles';
+
 
 const Footer = () => {
   return(
-    <>
-      <div>
-        <h2>Try for free !</h2>
-        <p>Get limited 1 week free try our features!</p>
+    
+    <Container>
+      <div className="header">
         <div>
+          <h2>Try for free !</h2>
+          <p>Get limited 1 week free try our features!</p>
+        </div>
+
+        <div className="buttons">
         <Button  
             backgroundColor="#F063B8"
             name="Learn more"
@@ -21,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div>
+      <div className="content">
         <div className="info">
         <p>Data Warehouse</p>
           <div id="local">
@@ -56,7 +62,8 @@ const Footer = () => {
       <div id="copyright">
         <p>© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.</p>
       </div>
-    </>
+    </Container>
+   
   )
 }
 
