@@ -9,7 +9,7 @@ const Header = () => {
       <div className="header">
         <LogoImg/>
 
-        <div className="menu">
+        <div className="menu" title="menu">
           <a href="about">About</a>
           <a href="help">Help</a>
           <a href="features">Features</a>
@@ -17,7 +17,9 @@ const Header = () => {
         </div>
       </div>
       
-      <Button color="#212353" 
+      <Button
+      data-testid="button" 
+      color="#212353" 
       shadow="5px 5px 5px rgba(0,0,0,0.1)"
       backgroundColor=""
       name="Request Demo"

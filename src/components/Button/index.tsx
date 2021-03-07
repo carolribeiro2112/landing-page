@@ -11,6 +11,7 @@ export interface ButtonProps {
 const Button = (props:ButtonProps) => {
   return(
     <ButtonStyle 
+      data-testid="button"
       type="button"
       color={props.color}
       backgroundColor={props.backgroundColor}

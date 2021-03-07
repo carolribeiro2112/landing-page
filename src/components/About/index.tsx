@@ -5,8 +5,8 @@ import {Container} from './styles';
 const About = () => {
   return(
     <Container>
-       <AboutImg/>
-      <div className="text">
+       <AboutImg data-testid="img"/>
+      <div className="text" title="about">
         <h2>We are a high-level data storage bank</h2>
         <p>The place to store various data that you can access at any 
           time through the internet  and where you can carry it. 
