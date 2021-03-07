@@ -17,32 +17,10 @@ export const Container = styled.div`
   }
 
   .grid{
+    margin: 0 auto;
+    max-width:1117px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-
-    .content {
-      display:flex;
-      align-content: center;
-      justify-content: center;
-
-      .text{
-        max-width: 220px;
-        text-align: center;
-        
-        h4{
-          margin-bottom: 20px;
-          margin-top: 49px;
-
-        }
-        p{
-          margin-bottom: 100px;
-        }
-
-        a{
-          text-decoration: none;
-        }
-     }
-    }
+    row-gap: 50px;
   }
 `;

@@ -22,17 +22,4 @@ export const Container = styled.div`
   } 
 `;
 
-export const Card = styled.div`
-  display: flex;
-  max-width: 645px;
-  height: 330px;
-  margin-left: 93px;
-  background-color: #FFFFFF;
-  border-radius: 50px;
 
-  img{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-  }
-`;
